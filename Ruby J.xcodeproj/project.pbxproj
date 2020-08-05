@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B662A4524DA8F8F00666A81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662A4424DA8F8F00666A81 /* AppDelegate.swift */; };
+		9B662A4724DA8F8F00666A81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662A4624DA8F8F00666A81 /* SceneDelegate.swift */; };
+		9B662A4924DA8F8F00666A81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662A4824DA8F8F00666A81 /* ContentView.swift */; };
+		9B662A4B24DA8F9100666A81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B662A4A24DA8F9100666A81 /* Assets.xcassets */; };
+		9B662A4E24DA8F9100666A81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B662A4D24DA8F9100666A81 /* Preview Assets.xcassets */; };
+		9B662A5124DA8F9100666A81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B662A4F24DA8F9100666A81 /* LaunchScreen.storyboard */; };
+		9B662A5C24DA8F9100666A81 /* Ruby_JTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662A5B24DA8F9100666A81 /* Ruby_JTests.swift */; };
+		9B662A6724DA8F9100666A81 /* Ruby_JUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B662A6624DA8F9100666A81 /* Ruby_JUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B662A5824DA8F9100666A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B662A3924DA8F8F00666A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B662A4024DA8F8F00666A81;
+			remoteInfo = "Ruby J";
+		};
+		9B662A6324DA8F9100666A81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B662A3924DA8F8F00666A81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B662A4024DA8F8F00666A81;
+			remoteInfo = "Ruby J";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9B662A4124DA8F8F00666A81 /* Ruby J.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ruby J.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B662A4424DA8F8F00666A81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9B662A4624DA8F8F00666A81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9B662A4824DA8F8F00666A81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B662A4A24DA8F9100666A81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B662A4D24DA8F9100666A81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B662A5024DA8F9100666A81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B662A5224DA8F9100666A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B662A5724DA8F9100666A81 /* Ruby JTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ruby JTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B662A5B24DA8F9100666A81 /* Ruby_JTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ruby_JTests.swift; sourceTree = "<group>"; };
+		9B662A5D24DA8F9100666A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B662A6224DA8F9100666A81 /* Ruby JUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ruby JUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B662A6624DA8F9100666A81 /* Ruby_JUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ruby_JUITests.swift; sourceTree = "<group>"; };
+		9B662A6824DA8F9100666A81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B662A3E24DA8F8F00666A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A5424DA8F9100666A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A5F24DA8F9100666A81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B662A3824DA8F8F00666A81 = {
+			isa = PBXGroup;
+			children = (
+				9B662A4324DA8F8F00666A81 /* Ruby J */,
+				9B662A5A24DA8F9100666A81 /* Ruby JTests */,
+				9B662A6524DA8F9100666A81 /* Ruby JUITests */,
+				9B662A4224DA8F8F00666A81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9B662A4224DA8F8F00666A81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B662A4124DA8F8F00666A81 /* Ruby J.app */,
+				9B662A5724DA8F9100666A81 /* Ruby JTests.xctest */,
+				9B662A6224DA8F9100666A81 /* Ruby JUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B662A4324DA8F8F00666A81 /* Ruby J */ = {
+			isa = PBXGroup;
+			children = (
+				9B662A4424DA8F8F00666A81 /* AppDelegate.swift */,
+				9B662A4624DA8F8F00666A81 /* SceneDelegate.swift */,
+				9B662A4824DA8F8F00666A81 /* ContentView.swift */,
+				9B662A4A24DA8F9100666A81 /* Assets.xcassets */,
+				9B662A4F24DA8F9100666A81 /* LaunchScreen.storyboard */,
+				9B662A5224DA8F9100666A81 /* Info.plist */,
+				9B662A4C24DA8F9100666A81 /* Preview Content */,
+			);
+			path = "Ruby J";
+			sourceTree = "<group>";
+		};
+		9B662A4C24DA8F9100666A81 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B662A4D24DA8F9100666A81 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B662A5A24DA8F9100666A81 /* Ruby JTests */ = {
+			isa = PBXGroup;
+			children = (
+				9B662A5B24DA8F9100666A81 /* Ruby_JTests.swift */,
+				9B662A5D24DA8F9100666A81 /* Info.plist */,
+			);
+			path = "Ruby JTests";
+			sourceTree = "<group>";
+		};
+		9B662A6524DA8F9100666A81 /* Ruby JUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9B662A6624DA8F9100666A81 /* Ruby_JUITests.swift */,
+				9B662A6824DA8F9100666A81 /* Info.plist */,
+			);
+			path = "Ruby JUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B662A4024DA8F8F00666A81 /* Ruby J */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B662A6B24DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby J" */;
+			buildPhases = (
+				9B662A3D24DA8F8F00666A81 /* Sources */,
+				9B662A3E24DA8F8F00666A81 /* Frameworks */,
+				9B662A3F24DA8F8F00666A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ruby J";
+			productName = "Ruby J";
+			productReference = 9B662A4124DA8F8F00666A81 /* Ruby J.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9B662A5624DA8F9100666A81 /* Ruby JTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B662A6E24DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby JTests" */;
+			buildPhases = (
+				9B662A5324DA8F9100666A81 /* Sources */,
+				9B662A5424DA8F9100666A81 /* Frameworks */,
+				9B662A5524DA8F9100666A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B662A5924DA8F9100666A81 /* PBXTargetDependency */,
+			);
+			name = "Ruby JTests";
+			productName = "Ruby JTests";
+			productReference = 9B662A5724DA8F9100666A81 /* Ruby JTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9B662A6124DA8F9100666A81 /* Ruby JUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B662A7124DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby JUITests" */;
+			buildPhases = (
+				9B662A5E24DA8F9100666A81 /* Sources */,
+				9B662A5F24DA8F9100666A81 /* Frameworks */,
+				9B662A6024DA8F9100666A81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B662A6424DA8F9100666A81 /* PBXTargetDependency */,
+			);
+			name = "Ruby JUITests";
+			productName = "Ruby JUITests";
+			productReference = 9B662A6224DA8F9100666A81 /* Ruby JUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B662A3924DA8F8F00666A81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = MMurray.Inc;
+				TargetAttributes = {
+					9B662A4024DA8F8F00666A81 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+					9B662A5624DA8F9100666A81 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9B662A4024DA8F8F00666A81;
+					};
+					9B662A6124DA8F9100666A81 = {
+						CreatedOnToolsVersion = 11.2;
+						TestTargetID = 9B662A4024DA8F8F00666A81;
+					};
+				};
+			};
+			buildConfigurationList = 9B662A3C24DA8F8F00666A81 /* Build configuration list for PBXProject "Ruby J" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B662A3824DA8F8F00666A81;
+			productRefGroup = 9B662A4224DA8F8F00666A81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B662A4024DA8F8F00666A81 /* Ruby J */,
+				9B662A5624DA8F9100666A81 /* Ruby JTests */,
+				9B662A6124DA8F9100666A81 /* Ruby JUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B662A3F24DA8F8F00666A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B662A5124DA8F9100666A81 /* LaunchScreen.storyboard in Resources */,
+				9B662A4E24DA8F9100666A81 /* Preview Assets.xcassets in Resources */,
+				9B662A4B24DA8F9100666A81 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A5524DA8F9100666A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A6024DA8F9100666A81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B662A3D24DA8F8F00666A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B662A4524DA8F8F00666A81 /* AppDelegate.swift in Sources */,
+				9B662A4724DA8F8F00666A81 /* SceneDelegate.swift in Sources */,
+				9B662A4924DA8F8F00666A81 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A5324DA8F9100666A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B662A5C24DA8F9100666A81 /* Ruby_JTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B662A5E24DA8F9100666A81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B662A6724DA8F9100666A81 /* Ruby_JUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B662A5924DA8F9100666A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B662A4024DA8F8F00666A81 /* Ruby J */;
+			targetProxy = 9B662A5824DA8F9100666A81 /* PBXContainerItemProxy */;
+		};
+		9B662A6424DA8F9100666A81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9B662A4024DA8F8F00666A81 /* Ruby J */;
+			targetProxy = 9B662A6324DA8F9100666A81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9B662A4F24DA8F9100666A81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B662A5024DA8F9100666A81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B662A6924DA8F9100666A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B662A6A24DA8F9100666A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B662A6C24DA8F9100666A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ruby J/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ruby J/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-J";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B662A6D24DA8F9100666A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Ruby J/Preview Content\"";
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Ruby J/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-J";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9B662A6F24DA8F9100666A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				INFOPLIST_FILE = "Ruby JTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-JTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby J.app/Ruby J";
+			};
+			name = Debug;
+		};
+		9B662A7024DA8F9100666A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				INFOPLIST_FILE = "Ruby JTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-JTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ruby J.app/Ruby J";
+			};
+			name = Release;
+		};
+		9B662A7224DA8F9100666A81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				INFOPLIST_FILE = "Ruby JUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-JUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ruby J";
+			};
+			name = Debug;
+		};
+		9B662A7324DA8F9100666A81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6G2ZUENQ5H;
+				INFOPLIST_FILE = "Ruby JUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "MMurray.Inc.Ruby-JUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ruby J";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B662A3C24DA8F8F00666A81 /* Build configuration list for PBXProject "Ruby J" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B662A6924DA8F9100666A81 /* Debug */,
+				9B662A6A24DA8F9100666A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B662A6B24DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby J" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B662A6C24DA8F9100666A81 /* Debug */,
+				9B662A6D24DA8F9100666A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B662A6E24DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby JTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B662A6F24DA8F9100666A81 /* Debug */,
+				9B662A7024DA8F9100666A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B662A7124DA8F9100666A81 /* Build configuration list for PBXNativeTarget "Ruby JUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B662A7224DA8F9100666A81 /* Debug */,
+				9B662A7324DA8F9100666A81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B662A3924DA8F8F00666A81 /* Project object */;
+}
